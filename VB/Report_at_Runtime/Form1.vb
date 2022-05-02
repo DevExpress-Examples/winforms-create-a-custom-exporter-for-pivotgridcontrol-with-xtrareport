@@ -30,7 +30,7 @@ Namespace WindowsApplication1
 
 		Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
 			Me.customerReportsTableAdapter.Fill(Me.nwindDataSet.CustomerReports)
-			fieldProductName.FilterValues.ValuesIncluded = fieldProductName.GetUniqueValues().Take(7).ToArray()
+			fieldProductName1.FilterValues.ValuesIncluded = fieldProductName1.GetUniqueValues().Take(7).ToArray()
 			pivotGridControl1.BestFit()
 		End Sub
 		Private Sub radioGroup1_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles radioGroup1.SelectedIndexChanged

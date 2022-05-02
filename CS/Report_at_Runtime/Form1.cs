@@ -33,7 +33,7 @@ namespace WindowsApplication1
         private void Form1_Load(object sender, EventArgs e)
         {
             this.customerReportsTableAdapter.Fill(this.nwindDataSet.CustomerReports);
-            fieldProductName.FilterValues.ValuesIncluded = fieldProductName.GetUniqueValues().Take(7).ToArray();
+            fieldProductName1.FilterValues.ValuesIncluded = fieldProductName1.GetUniqueValues().Take(7).ToArray();
             pivotGridControl1.BestFit();
         }
         private void radioGroup1_SelectedIndexChanged(object sender, EventArgs e)
