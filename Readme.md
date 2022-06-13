@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2231)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Pivot Grid for WinForms - How to create a custom exporter for the PivotGridControl with the XtraReport suite (AutoRowHeight, BestFit and FitToPage features)
+# Pivot Grid for WinForms - How to create a custom exporter for the PivotGridControl with the XtraReport suite
 
 This example illustrates how to dynamically create a custom report based on [PivotGridControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl) content. This exporter provides the AutoRowHeight, BestFit and FitToPage features.
 
